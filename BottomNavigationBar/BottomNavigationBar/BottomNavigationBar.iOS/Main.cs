@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace BottomNavigationBar.iOS
+namespace BottomNavigationBarExample.iOS
 {
     public class Application
     {

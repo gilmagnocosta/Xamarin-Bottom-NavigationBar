@@ -4,7 +4,7 @@ using Android.OS;
 using Prism;
 using Prism.Ioc;
 
-namespace BottomNavigationBar.Droid
+namespace BottomNavigationBarExample.Droid
 {
     [Activity(Label = "BottomNavigationBar", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity

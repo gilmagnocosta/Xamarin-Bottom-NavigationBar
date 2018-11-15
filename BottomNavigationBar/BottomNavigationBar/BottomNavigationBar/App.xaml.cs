@@ -1,12 +1,12 @@
 ﻿using Prism;
 using Prism.Ioc;
-using BottomNavigationBar.ViewModels;
-using BottomNavigationBar.Views;
+using BottomNavigationBarExample.ViewModels;
+using BottomNavigationBarExample.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace BottomNavigationBar
+namespace BottomNavigationBarExample
 {
     public partial class App
     {

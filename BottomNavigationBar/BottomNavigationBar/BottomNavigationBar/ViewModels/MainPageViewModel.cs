@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BottomNavigationBar.ViewModels
+namespace BottomNavigationBarExample.ViewModels
 {
     public class MainPageViewModel : ViewModelBase
     {

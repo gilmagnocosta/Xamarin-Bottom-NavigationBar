@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BottomNavigationBar.ViewModels
+namespace BottomNavigationBarExample.ViewModels
 {
     public class ViewModelBase : BindableBase, INavigationAware, IDestructible
     {
