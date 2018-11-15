@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xg:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BottomNavigationBar.Views.MainPage"
+             xmlns:xg="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
+             Title="{Binding Title}">
+
+    <ContentPage Title="Tab 1"
+                 Icon="ic_user.png"
+                 xg:BottomBarPageExtensions.TabColor="Blue" />
+
+    <ContentPage Title="Tab 2"
+                 Icon="ic_test2.png"
+                 xg:BottomBarPageExtensions.TabColor="Beige" />
+
+    <ContentPage Title="Tab 3"
+                 Icon="ic_test3.png"
+                 xg:BottomBarPageExtensions.TabColor="AntiqueWhite" />
+    
+</xg:BottomBarPage>
